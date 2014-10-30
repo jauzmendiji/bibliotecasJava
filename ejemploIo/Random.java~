@@ -1,0 +1,24 @@
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+		
+		int num1;
+
+		System.out.print("\nTe dira el numero de la loteria de hoy ");
+		System.out.print("\n ");
+		
+	
+		Random rndm = new Random ();
+		
+		num1=rndm.setSeed(99999);
+		Date eguna = Date();	
+		
+		System.out.print("\nHoy dia " + eguna + " ha salido el numero " + num1 );
+		
+				
+	}
+}
