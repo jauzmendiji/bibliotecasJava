@@ -1,0 +1,61 @@
+import java.util.Vector;
+
+public class CVector {
+
+public static void main (String args[]) {
+
+//dimensión inicial es 10  Vector<Object> vec = new Vector<Object>();
+//dimension inicial de nuestro vector es 5
+	Vector<Object> vec = new Vector<Object>(5);
+//vec.addElement();añadir elementos a un vector
+//vec.addElement(1); se pueden añadir numeros,vec.addElement("uno"); se pueden añadir strings
+		vec.addElement(1);
+
+			System.out.println("\nElementos del vector: " + vec);
+		 	System.out.println("Cuantos elementos guarda el vector: " + vec.size());
+			System.out.println("la dimensión actual del vector es: " + vec.capacity());
+
+        	vec.addElement(2);
+
+		 	System.out.println("\nElementos del vector: " + vec);
+		 	System.out.println("Cuantos elementos guarda el vector: " + vec.size());
+			System.out.println("la dimensión actual del vector es: " + vec.capacity());
+
+       		vec.addElement(3);
+
+		 	System.out.println("\nElementos del vector: " + vec);
+		 	System.out.println("Cuantos elementos guarda el vector: " + vec.size());
+			System.out.println("la dimensión actual del vector es: " + vec.capacity());
+
+		vec.addElement(4);
+
+		 	System.out.println("\nElementos del vector: " + vec);
+		 	System.out.println("Cuantos elementos guarda el vector: " + vec.size());
+			System.out.println("la dimensión actual del vector es: " + vec.capacity());
+		
+		vec.addElement(5);
+
+		 	System.out.println("\nElementos del vector: " + vec);
+		 	System.out.println("Cuantos elementos guarda el vector: " + vec.size());
+			System.out.println("la dimensión actual del vector es: " + vec.capacity());
+
+		vec.addElement(6);
+
+		 	System.out.println("\nElementos del vector: " + vec);
+		 	System.out.println("Cuantos elementos guarda el vector: " + vec.size());
+			System.out.println("la dimensión actual del vector es: " + vec.capacity());
+
+		System.out.println("\n------------------------------------------------------" );
+		System.out.println("\nElementos del vector: " + vec);
+		System.out.println("\n");
+
+		System.out.println("\nEliminados todos los elementos del vector" );
+		vec.removeAllElements();
+		System.out.println("\nElementos del vector: " + vec);
+		System.out.println("\n");
+
+//se pueden tambien eliminar los elementos concretos.
+//vec.removeElement("tres"); eliminamos el elemento que guarda el string "tres".
+//v.removeElementAt(2); eliminamos el elemento que su indice es el 2.
+}
+}
