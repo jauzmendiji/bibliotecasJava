@@ -1,0 +1,11 @@
+errores.txt
+Mate.class
+Mate.java
+Mate.java~
+PProcessBuilder.class
+PProcessBuilder.java
+PProcessBuilder.java~
+resultado.txt
+Stringa.class
+Stringa.java
+Stringa.java~
